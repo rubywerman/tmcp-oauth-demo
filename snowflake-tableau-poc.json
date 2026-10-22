@@ -1,0 +1,10 @@
+{
+  "client_id": "https://raw.githubusercontent.com/rubywerman/tmcp-oauth-demo/main/snowflake-tableau-poc.json",
+  "client_name": "Snowflake Cortex Tableau POC",
+  "redirect_uris": [
+    "https://identity.snowflake.com/oauth2/callback"
+  ],
+  "token_endpoint_auth_method": "none",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"]
+}
